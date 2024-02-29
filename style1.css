@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:  rgb(195, 236, 240);
+    color:#02303c;
+    margin-top: 20px;
+    border-color: blue;
+    
+}
+.header{
+    border-radius: 50px;
+
+}
+.info{
+    padding: 10px;
+    margin: 10px;
+    width: 625px;
+    border-radius: 50px;
+}
+.description h2
+{
+   font-size: 35px;
+}
+.description p
+{
+    font-size: 28px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.info
+{
+    float: down;
+}
+.checked
+{
+    color: rgb(251, 255, 121);
+}
+.color-black
+{
+    background-color: black;
+}
+
+.price{
+    margin:4vh 0;
+}
+
+
+.color-options {
+    margin-top: 20px;
+}
+
+.color-options h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.color-options ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.color-option {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.color-option:hover {
+    border-color: #000;
+}
+
+/* Adjust styles for selected color */
+.color-option.selected {
+    border-color: #000;
+}
+
+.product-style {
+    margin-top: 20px;
+}
+
+.product-style img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.product-style p {
+    font-size: 16px;
+}
+.one{
+    justify-content: center;
+}
+.five{
+    border: 5px solid rgb(4, 138, 200);
+    border-radius: 1%;
+    
+}
+.six{
+    background-color: aliceblue;
+}

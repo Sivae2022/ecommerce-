@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: rgb(195, 236, 240);
+    
+}
+header{
+    width : 100%;
+    height: 10vh;
+    background: rgba(5, 98, 155, 0.659);
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 2%;
+   
+}
+.user-profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    gap:0.5vh;
+}
+.user-profile #name{
+    background-color:transparent;
+    color:#d4edf3;
+}
+.page-header header img{
+    width:8vh;
+    height:7vh;
+    border-radius: 100%;
+    background-color: rgb(245, 239, 239);
+    
+}
+.main-container{
+    
+    padding: 3%;
+    border-radius: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    ;
+    color: rgba(17, 17, 17, 0.629);
+    
+    
+}
+.card .image{
+    width: 200px;;
+    height: 200px;
+    padding: 2%;
+    border-radius: 10%;
+}
+.btn-primary{
+    margin: 5%;
+    padding: 2%;
+    width: 95%;
+    font-size: 20px;
+    background: rgba(132, 146, 157, 0);
+    border-radius:10px;
+    width: 150px;
+    gap:3px;
+    color: rgba(17, 17, 17, 0.629);
+    border-color: color: rgba(17, 17, 17, 0.629);;
+
+}
+.btn-primary:hover{
+    color: rgb(42, 168, 231);
+    background-color: aliceblue;
+    font-weight: bold;
+}
+.card{
+    
+    margin: 10px;
+    display: inline-block;
+    border-radius: 7px 15px 7px ;
+    position: relative;
+    
+}
+.card hover{
+    transition: cubic-bezier();
+}
+.item-title{
+    width: 100%;
+    font-weight: bold;
+    font-family: serif;
+    padding: 2%;
+    color: rgba(17, 17, 17, 0.629);
+}
+.item-cost{
+    width: 100%;
+    font-size: 20px;
+    padding: 2%;
+    color: rgba(17, 17, 17, 0.629);
+}
+/* .user-profile{
+    width: 10%;
+    height: 100%;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgb(169, 116, 46);
+} */
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.nav span{
+    font-size: 30px;
+    color:rgb(85, 78, 78);
+    padding:1vh;
+    display:flex;
+    color:#d4edf3;
+}
+.nav span:hover{
+    font-weight: bold;
+    font-size: 20px;
+}
+.logo{
+    width: 25%;
+    height: 70vh;
+    display: inline-block;
+}
+.logo-container{
+    
+    border-radius: 100px;
+    background: #ecf1f2;
+}
+
+
+.wishlist-heart {
+    font-size: 20px; 
+    color: red; 
+    z-index: 1;
+    padding-right: 10px;
+    background: none;
+    top: 2%;
+    right: 2%;
+    position: absolute;
+}
+.cards-container{
+    column-count: 4;
+    
+    column-rule: 1px dotted rgb(3, 77, 91);
+    column-gap: 10rem;
+    
+}
